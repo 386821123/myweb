@@ -1,15 +1,16 @@
-// window.onload = function () {
-// 	var oxx = document.getElementById('xx');
-// 	var obanner = document.getElementById('top-banner');
-// 	var otext = document.getElementById('textt');
-// 	oxx.onmousedown = function () {
-// 		obanner.style.display = 'none';
-// 	};
-// 	otext.onmousedown = function () {
-// 		otext.value = '';
-// 		otext.style.color = 'rgb(51, 51, 51)';
-// 	};
-// }
+$(function (){
+	var oxx = document.getElementById('xx');
+	var obanner = document.getElementById('top-banner');
+	var otext = document.getElementById('textt');
+	oxx.onmousedown = function () {
+		obanner.style.display = 'none';
+	};
+	otext.onmousedown = function () {
+		otext.value = '';
+		otext.style.color = 'rgb(51, 51, 51)';
+	};
+
+});
 $(function () {
 				//手动控制轮播图
 				$('#one li').eq(0).show();
