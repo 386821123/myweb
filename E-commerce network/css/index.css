@@ -186,7 +186,7 @@ _display: block;
 #top-banner{clear:both;width:100%;height:80px;background-color:#f5245b;display:block;}
 .top-ba{width:1210px;margin:0 auto;height:80px;position:relative;}
 #xx{width:20px;height:20px;background:red;text-align:center;position:absolute;top:9px;right:7px;}
-#xx:hover{background:#c81600;}
+#xx:hover{background:#c81600;color: white;cursor: pointer;}
 /*logo一栏*/
 
 .w{width:1210px;margin:0 auto;position:relative;}
