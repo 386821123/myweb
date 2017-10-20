@@ -1,16 +1,25 @@
-$(function (){
-	var oxx = document.getElementById('xx');
-	var obanner = document.getElementById('top-banner');
-	var otext = document.getElementById('textt');
-	oxx.onmousedown = function () {
-		obanner.style.display = 'none';
-	};
-	otext.onmousedown = function () {
-		otext.value = '';
-		otext.style.color = 'rgb(51, 51, 51)';
-	};
+// $(function (){
+// 	var oxx = document.getElementById('xx');
+// 	var obanner = document.getElementById('top-banner');
+// 	var otext = document.getElementById('textt');
+// 	oxx.onmousedown = function () {
+// 		obanner.style.display = 'none';
+// 	};
+// 	otext.onmousedown = function () {
+// 		otext.value = '';
+// 		otext.style.color = 'rgb(51, 51, 51)';
+// 	};
 
-});
+// });
+   $(function(){
+    	var x=function(){
+    		$("#top-banner").slideDown();
+    	}
+    	$("#xx").click(function(){
+    		$("#top-banner").slideUp("slow");
+    	})
+    	setInterval(x,50000);//每5分钟后广告弹出
+    });
 $(function () {
 				//手动控制轮播图
 				$('#one li').eq(0).show();
