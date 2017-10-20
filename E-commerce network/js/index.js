@@ -12,13 +12,9 @@
 
 // });
    $(function(){
-    	var x=function(){
-    		$("#top-banner").slideDown();
-    	}
     	$("#xx").click(function(){
     		$("#top-banner").slideUp("slow");
     	})
-    	setInterval(x,50000);//每5分钟后广告弹出
     });
 $(function () {
 				//手动控制轮播图
